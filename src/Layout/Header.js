@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 import HomeBackgroundSection from '../Components/Utills/HomeBackgroundSection'
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
         <Fragment>
             <nav className="navbar navbar-expand-lg navbar-light fixed-top">
                 <div className="container">
-                    <a className="navbar-brand" href="#"><img src="https://www.cubix.co/themes/responsiv-clean/assets/img/cubix-logo.svg"/></a>
+                    <Link className="navbar-brand" to="/"><img src="https://www.cubix.co/themes/responsiv-clean/assets/img/cubix-logo.svg"/></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
@@ -28,7 +29,7 @@ const Header = () => {
                                 <a className="nav-link nav-link-text" href="#">Resources</a>
                             </li>
                             <li className="nav-item ms-4">
-                                <a className="nav-link nav-link-text" href="#">Contact</a>
+                                <Link className="nav-link nav-link-text" to="contact">Contact</Link>
                             </li>
                             <li className="nav-item ms-4">
                                 <a className="nav-link nav-link-text" href="#">866-978-2220</a>

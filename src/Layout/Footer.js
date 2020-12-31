@@ -22,9 +22,23 @@ const Footer = () => {
                     countryName="Dubai"
                     countryText="Building 11, Level 7, Bay Square, Business Bay, UAE"
                 />
-                <FooterData2 />
-                <FooterData2 />
-            
+                <FooterData2 ftName="Services" />
+                <FooterData2 ftName="&nbsp;" />
+            </div>
+            <div className="ft-hr">
+                <hr />
+            </div>
+            <div className="footer-bottom container">
+                <div>
+                    <span>© 2020 Cubix. All Rights Reserved. <strong>Terms of Use. Privacy Policy.</strong></span>
+                </div>
+                <div className="ft-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-dribbble"></i>
+                </div>
+
             </div>
         </>
     )

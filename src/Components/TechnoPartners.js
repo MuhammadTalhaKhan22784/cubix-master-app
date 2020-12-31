@@ -20,7 +20,7 @@ const TechnoPartners = () => {
                 <TechnoLogos imageSource={AmazonWebServicesImg} imageSourceText="Amazon web services partner"/>
                 </div>
 
-                <hr/>
+                <hr className="mb-hr"/>
             </div>
         </>
     )

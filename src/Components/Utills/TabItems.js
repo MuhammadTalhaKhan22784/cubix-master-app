@@ -1,13 +1,13 @@
 import React from 'react'
 
-const TabItems = () => {
+const TabItems = (props) => {
     return (
         <>
             <div className="tabs-icons">
                 <div>
-                    <img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-technology-ios2x.svg" />
+                    <img src={props.imgSource} />
                 </div>
-                <span>ios</span>
+                <span>{props.imgText}</span>
             </div>
 
         </>

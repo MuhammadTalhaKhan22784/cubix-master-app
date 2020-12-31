@@ -5,7 +5,7 @@ import SwiperCore, { Navigation } from 'swiper';
 SwiperCore.use([Navigation])
 const DevEnterprise = () => {
     return (
-        <>
+        <div className="testimonials">
             <div className="dev-enterprise-section">
                 <div className="dev-eterprise-heading">
                     <h2>We develop enterprise-grade software solutions for businesses.</h2>
@@ -45,7 +45,7 @@ const DevEnterprise = () => {
                     <h4>Top app developers</h4>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
