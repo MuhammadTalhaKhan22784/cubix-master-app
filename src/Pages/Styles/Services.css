@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-services{
+    background-image:linear-gradient(rgb(0 0 0 / 72%), rgb(0 0 0 / 60%)), url(https://www.cubix.co/storage/app/media/services/cubix-service-1.jpg);
+    width: 100%;
+    height: 87vh;
+    background-size: cover;
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-service-Text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.bg-service-Text h2{
+    font-size: 48px;
+    color: white;
+    width: 58%;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.bg-service-Text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;    
+    opacity: .9;
+}   
+
+.down-arrow{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5rem;
+}
+
+.fa-angle-down{
+    color: white;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.service-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-main-text-1 h6{
+    font-size: 14px;
+    color: #4869e8;
+    font-weight: 600;
+    letter-spacing: .2em;
+}
+
+.service-main-text-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-main-text-2 h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.285em;
+}
+.service-main-text-2 p{
+    font-size: 1.2em;
+    line-height: 1.7em;
+    opacity: 1;
+    width: 56%;
+    text-align: center;
+}
+
+.sp-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 16rem;
+    height: 9rem;
+    box-shadow: 0 25px 70px rgba(0,0,0,.07);
+
+}
+
+.sp-card-items h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.sp-card-items > p{
+    font-size: 14px;
+}
+
+/* Services Swiper Section */
+
+.services-swiper-Section{
+    margin-top: 10rem;
+}
+
+.s-swipe-1{
+    /* width: 50%; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.s-swipe-num{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.s-swipe-num h6{
+    font-size: 50px;
+    opacity: .1;
+    font-weight: 700;
+}
+
+.s-swipe-h{
+    margin: 0 auto;
+}
+
+.s-swipe-h h2{
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+}
+
+.s-swipe-list{
+    margin: 0 auto;
+}
+
+.s-swipe-ul{
+    list-style: none;
+    line-height: 2rem;
+}
+
+.s-swipe-ul li{
+    color: black;
+    font-weight: 600;
+}
+
+.s-swipe-2{
+    width: 100%;
+    height: 100vh;
+}
+.s-swipe-p{
+    width: 100%;
+}
+.s-swipe-p p{
+    width: 74.5%;
+    margin-left: 100px;
+    font-size: 1.2em;
+}
+
+.s-swipe-2 img{
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/* .services-swiper-Section .swiper-button-next,
+.services-swiper-Section .swiper-button-prev {
+    display: flex !important;
+    position: absolute;
+  } */
+

@@ -7,6 +7,8 @@ import {
 
 import Contact from '../Pages/Contact'
 import Home from '../Pages/Home'
+import Services from '../Pages/Services';
+import WebDevelopment from '../Pages/WebDevelopment';
 
 
 const Routes = () => {
@@ -19,6 +21,12 @@ const Routes = () => {
                     </Route>
                     <Route exact path="/contact">
                         <Contact />
+                    </Route>
+                    <Route exact path="/services">
+                        <Services />
+                    </Route>
+                    <Route exact path="/web-development">
+                        <WebDevelopment />
                     </Route>
                 </Switch>
             </Router>

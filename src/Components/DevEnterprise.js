@@ -1,8 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper';
 
-SwiperCore.use([Navigation])
 const DevEnterprise = () => {
     return (
         <div className="testimonials">

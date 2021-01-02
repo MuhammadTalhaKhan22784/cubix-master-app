@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper';
+import SwiperCore, { Navigation,Pagination } from 'swiper';
 import BackgroundSectionData from './BackgroundSectionData';
 
-SwiperCore.use([Navigation])
+SwiperCore.use([Navigation,Pagination]);
 
 const HomeBackgroundSection = () => {
     return (

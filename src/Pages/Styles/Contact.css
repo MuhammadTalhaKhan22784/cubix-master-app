@@ -1,63 +1,181 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contact-content{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
 }
 
-.contact-left-content{
-    width: 50%;
-    border: 1px solid;
-    background: linear-gradient(to bottom,#012690 0,#1cafc6 100%);
+.contact-left-content {
+  width: 50%;
+  border: 1px solid;
+  background: linear-gradient(to bottom, #012690 0, #1cafc6 100%);
 }
 
-.sub-contact-1 img{
-   margin-top: 2rem;
-   margin-left: 3.5rem;
+.sub-contact-1 img {
+  margin-top: 2rem;
+  margin-left: 3.5rem;
 }
 
-.sub-cont-img-1{
-    position: absolute;
-    top: -20px;
-    background-position: center;
-    background-size: 100% 100%;
-    object-fit: contain;
+.sub-cont-img-1 {
+  position: absolute;
+  top: -20px;
+  background-position: center;
+  background-size: 100% 100%;
+  object-fit: contain;
 }
 
-.swiper-button-next ,.swiper-button-prev{
-    display: none !important;
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
 }
 
-.sub-contact-2-item-1{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-weight: 400;
+.sub-contact-2-item-1 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 400;
 }
 
-.sub-contact-2-item-1 h2{
-    margin-bottom: 8px;
-    color: #fff;
-    font-size: 25px;
+.sub-contact-2-item-1 h2 {
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 25px;
 }
-.sub-contact-2-item-1 p{
-    margin-bottom: 4px;
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 400;
+.sub-contact-2-item-1 p {
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
 }
-.sub-contact-2-item-1 span{
-    color: white;
-    font-size: 1em;
+.sub-contact-2-item-1 span {
+  color: white;
+  font-size: 1em;
 }
-.sub-contact-2-item-2{
-    margin-top: 1rem;
-    position: relative;
+.sub-contact-2-item-2 {
+  margin-top: 1rem;
+  position: relative;
+}
 
+.contact-right-content {
+  width: 50%;
+}
+
+.contact-right-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.con-top-1 > span,
+.con-top-2 > span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.con-top-1 > i,
+.con-top-2 > i {
+  margin-right: 20px;
+}
+
+.con-right-text {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con-right-text h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.con-right-text p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.contact-input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con-input-fields-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con-input-fields-1 > input {
+  width: 84%;
+  margin-bottom: 20px;
+  height: 4rem;
+  border-radius: 3px;
+  border: 1px solid #b0bbca !important;
+  border-bottom: 2px solid #b0bbca !important;
+  box-shadow: inset 0 2px 0 0 rgba(188, 198, 211, 0.14);
+  font-size: 18px;
+}
+
+.two-inputs {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-inputs > input {
+  margin-bottom: 20px;
+  height: 4rem;
+  width: 49% !important;
+  border-radius: 3px;
+  border: 1px solid #b0bbca !important;
+  border-bottom: 2px solid #b0bbca !important;
+  box-shadow: inset 0 2px 0 0 rgba(188, 198, 211, 0.14);
+  font-size: 18px;
+}
+
+.con-textarea {
+  width: 84%;
+}
+
+.con-textarea > textarea {
+  resize: none;
+  border-radius: 3px;
+  border: 1px solid #b0bbca;
+  border-bottom: 2px solid #b0bbca;
+  box-shadow: inset 0 2px 0 0 rgba(188, 198, 211, 0.14);
+  height: 130px;
+}
+
+.con-button {
+  width: 84%;
+}
+.con-button > button {
+  width: 100%;
+  height: 65px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: none;
+}
+
+.con-button > button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05),
+    0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05),
+    0 16px 16px rgba(0, 0, 0, 0.05);
+}
+
+.con-button > button:focus{
+    outline: none;
 }

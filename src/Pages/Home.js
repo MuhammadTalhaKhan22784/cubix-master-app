@@ -10,6 +10,7 @@ import Header from '../Layout/Header';
 import DevEnterprise from '../Components/DevEnterprise';
 
 import 'swiper/swiper-bundle.css';
+import PreviousWorkSectionThird from '../Components/Utills/PreviousWorkSectionThird';
 const Home = () => {
     return (
         <>
@@ -17,8 +18,8 @@ const Home = () => {
             <DrivenProducts />
             <PreviousWorkSection />
             <PreviousWorkSectionSecond />
-            <PreviousWorkSection />
-            <DevEnterprise />
+            <PreviousWorkSectionThird/>
+             <DevEnterprise />
             <TechnologyUse />
             <TechnoPartners />
             <ProductExperienceSection />

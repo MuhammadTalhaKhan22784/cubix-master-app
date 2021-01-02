@@ -1,0 +1,8 @@
+
+.bg-web-development{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/web-development/web-development.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: cover;
+} 
