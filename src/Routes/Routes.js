@@ -8,6 +8,7 @@ import {
 import Contact from '../Pages/Contact'
 import Home from '../Pages/Home'
 import Services from '../Pages/Services';
+import MVPDevelopment from '../Pages/MVPDevelopment';
 import WebDevelopment from '../Pages/WebDevelopment';
 
 
@@ -24,6 +25,9 @@ const Routes = () => {
                     </Route>
                     <Route exact path="/services">
                         <Services />
+                    </Route>
+                    <Route exact path="/mvp-development">
+                        <MVPDevelopment />
                     </Route>
                     <Route exact path="/web-development">
                         <WebDevelopment />

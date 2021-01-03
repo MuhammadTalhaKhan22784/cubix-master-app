@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 import HomeBackgroundSection from '../Components/Utills/HomeBackgroundSection'
-import Navbar from './Navbar'
+import Navbar from './navbar/navbar'
 
 const Header = () => {
 
     return (
         <Fragment>
-            <Navbar />
+            <Navbar/>
             <HomeBackgroundSection />
         </Fragment>
     )

@@ -1,0 +1,165 @@
+
+
+.hero {
+  padding: 2rem 0rem;
+  background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/mvp-startup-development/MVP-Product-Development.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.sd-icon {
+  width: 4.5rem;
+  padding: 0.8rem;
+  background-color: white;
+  border-radius: 100px;
+  margin: 4rem 0rem 1rem 0rem;
+}
+
+.sd-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.sd-para {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  width: 54%;
+  margin: 1rem 0rem 2rem 0;
+}
+
+.butn {
+  border: 0;
+  background-color: #f88379;
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+/* SECTION-1 START */
+
+.section-1 {
+  margin: 4rem 0;
+}
+
+.s1-para {
+  font-size: 1.3rem;
+  font-weight: 400;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.s1-card {
+  padding: 2rem;
+  border-radius: 0.3rem;
+  margin: 1rem 0rem;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 1.875rem 2.875rem 0 rgba(49, 60, 98, 0.05);
+}
+
+.s1-icon {
+  padding: 1.4rem;
+  min-width: 6rem;
+  background-color: #3db3e3;
+  border: 6px solid #d9f0fa;
+  border-radius: 100%;
+  color: white;
+  margin-right: 1rem;
+}
+.s1-card-para {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* SECTION-1 END */
+
+/* SECTION 2 START */
+
+.section-2 {
+  background-color: #f0f2f7;
+  padding: 6rem 0rem;
+}
+.s2-para {
+  font-size: 1.3rem;
+  font-weight: 400rem;
+  margin: 2rem 0rem;
+}
+/* SECTION 2 END */
+
+/* SECTION 3 START */
+
+.section-3 {
+  padding: 6rem 0rem;
+  background-color: #f5f7fb;
+}
+
+/* SECTION 3 END */
+
+/* SECTION 4 START */
+.section-4 {
+  padding: 8rem 0rem;
+}
+
+.s4-heading {
+  width: 80%;
+  margin: 0rem auto 5rem auto;
+}
+
+.s4-emoji {
+  margin: 0rem auto;
+  padding: 2rem;
+  display: block;
+}
+
+.s4-box {
+  background-color: #ebf4fd;
+}
+.s4-box2 {
+  background-color: #fdebeb;
+}
+
+/* SECTION 4 END */
+
+/* SECTION 5 START */
+
+.section-5 {
+  padding: 8rem 0rem;
+  background-color: #f5f7fb;
+}
+
+.s5-heading {
+  width: 80%;
+  margin: 0rem auto 2rem auto;
+}
+
+.s5-para {
+  width: 80%;
+  font-size: 1.3rem;
+  margin: 1rem auto 6rem auto;
+}
+
+/* SECTION 5 END */
+
+/* SECTION 6 START */
+
+.section-6 {
+  padding: 8rem 0rem;
+}
+
+.s6-heading {
+  width: 80%;
+  font-size: 2.8rem;
+  margin: 0rem auto;
+}
+
+.butn-blue {
+  margin: 3rem auto 2rem auto;
+  display: block;
+  background-color: #4859e8;
+}
+
+/* SECTION 6 END */
