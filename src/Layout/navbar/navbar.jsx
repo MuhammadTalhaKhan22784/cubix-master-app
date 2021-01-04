@@ -32,7 +32,8 @@ const Navbar = () => {
 
     const handleShow = (e) => {
         setHide(!false)
-        // console.log(e.target.value)
+        // console.log(hide)
+        // console.log(e.target)
         setValue(e.target.value)
     }
     const handleAbout = (e) => {
@@ -56,7 +57,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='container'>
+        <div className={!hide? 'containerr' :'containerr2'}>
             <div className='sub_navbar_div'>
 
                 <div className='logo_div'>

@@ -1,0 +1,21 @@
+.ai-section-1{
+    margin-top: 5rem;
+}
+
+.ai-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.ai-cards img{
+    width: 60px;
+}
+
+.ai-cards span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ai-section-3{
+    margin-top: 10rem;
+}

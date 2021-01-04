@@ -31,7 +31,12 @@ const MVPDevelopment = () => {
             </div>
             <div className="section-1">
                 <div className="container">
-                   <MVPDevelopmentSection1/>
+                   <MVPDevelopmentSection1 
+                    mvdText1="Understanding minimum viable"
+                    mvdText2="product development"
+                    mvdPara1="MVP product development is a technique to offer just enough features to please early adopters and  collect feedback and review for the final product, meanwhile raising capital for the end-solution. MVP  startups retain early adopters through exciting features and gain insights that help in final  product development."
+                    mvdPara2="You don’t want your business idea and investing going down the drain, so test it before launching it to   the masses."
+                   />
                    <MVPDevelopmentCards/>
                 </div>
             </div>

@@ -8,8 +8,8 @@ import ResourcesModel from '../navbar/models/resources'
 
 
 // import HoverModel from './service/aboutModel'
-const NavList = ({ hideFunc, showFunc, openList, hide ,aboutFunc,hideAbout}) => {
-    // console.log(hide)
+const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAbout}) => {
+    // console.log(vertical)
     
     const [open, setOpen] = useState(false)
     const [open2, setOpen2] = useState(false)
@@ -40,8 +40,11 @@ const NavList = ({ hideFunc, showFunc, openList, hide ,aboutFunc,hideAbout}) => 
                 <div className='navList_div'>
                     <ul className='navList_ul' >
                         <li
+                        onMouseOver={showFunc}
+                        onMouseLeave={hideFunc}
                           value='1' 
-                          className='servicesss'
+                          className={!vertical?'servicesss':'servicesss2'}
+                          to="/services"
                            >Services
                            
                            <div className='model_div'>
@@ -50,29 +53,40 @@ const NavList = ({ hideFunc, showFunc, openList, hide ,aboutFunc,hideAbout}) => 
                            </div> 
                         
                         </li>
-                        <li  value='2'   className='solutions'  >Solutins
+                        <li  value='2'   className={!vertical?'solutions':'solutions2'} 
+                             onMouseOver={showFunc}
+                             onMouseLeave={hideFunc}
+                        >Solutions
                         <div className='model_div2'>
                            <SolutionModel  />
 
                            </div>
                         </li>
-                        <li>Work</li>
-                        <li onMouseOver={aboutFunc} value='3'className='abouts' onMouseLeave={hideAbout} >About
+                        <li className={!vertical?'works':'work2'}>Work</li>
+                        <li 
+                         value='3'className={!vertical?'abouts':'about2'}
+                        onMouseOver={showFunc}
+                        onMouseLeave={hideFunc}
+                         >About
                         <div className='model_div3'>
                            <AboutModel  />
 
                            </div>
                         </li>
-                        <li onMouseOver={aboutFunc} value='4' className='resourcess' onMouseLeave={hideAbout}>Resources
+                        <li
+                        onMouseOver={showFunc}
+                        onMouseLeave={hideFunc}
+                         value='4' className={!vertical?'resourcess':'resourcess2'}
+                          >Resources
                         <div className='model_div4'>
                            <ResourcesModel  />
 
                            </div>
                         </li>
-                        <li>Contact</li>
-                        <li className='cl_li'>
+                        <li className={!vertical?'contacts':'contacts2'}>Contact</li>
+                        <li className={!vertical?'cl_li':'cl_li2'}>
                             <PhoneIcon className='callIcon' />
-                            <p> 866-978-2220</p>
+                            <p > 866-978-2220</p>
                         </li>
                         <li>
                             <button className='estimate_btn'>ESTIMATE PROJECT</button>

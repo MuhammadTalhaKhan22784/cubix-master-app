@@ -14,6 +14,7 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                       
                         <ul className="navbar-nav ms-5 mb-2 mb-lg-0 d-flex align-items-center">
                             <li className="nav-item ms-3">
                                 <Link className="nav-link nav-link-text" to="/services">Services</Link>
@@ -25,7 +26,7 @@ const Navbar = () => {
                                 <Link className="nav-link nav-link-text" to="/mvp-development">Work</Link>
                             </li>
                             <li className="nav-item ms-4">
-                                <a className="nav-link nav-link-text" href="#">About</a>
+                                <Link className="nav-link nav-link-text" to="/artificial-intelligence">About</Link>
                             </li>
                             <li className="nav-item ms-4">
                                 <Link className="nav-link nav-link-text" to="/web-development">Resources</Link>

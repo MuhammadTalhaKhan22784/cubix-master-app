@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import HomeBackgroundSection from '../Components/Utills/HomeBackgroundSection'
-import Navbar from './navbar/navbar'
-
+// import Navbar from '../Layout/navbar/navbar'
+import Navbar from '../Layout/Navbar'
 const Header = () => {
 
     return (

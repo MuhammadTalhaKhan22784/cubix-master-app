@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './hover.css'
 
 const SolutionModel = ({ openn, value }) => {
-    console.log(value)
+    // console.log(value)
     return (
         <div className={!openn?'main_model_div' : ''} >
             <div className={!openn ? 'sub_model_div' : '.sub_model_div2'}>
