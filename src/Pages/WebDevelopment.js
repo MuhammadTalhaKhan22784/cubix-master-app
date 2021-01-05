@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Pages/Styles/WebDevelopment.css'
-import Navbar from '../Layout/Navbar'
+// import Navbar from '../Layout/Navbar'
+import Navbar from '../Layout/navbar/navbar'
 import WebDevelopmentSection1 from '../ServicesSubComponents/WebDevelopmentSection1'
 import WebDevelopmentSection2 from '../ServicesSubComponents/WebDevelopmentSection2'
 import WebDevelopmentSection3 from '../ServicesSubComponents/WebDevelopmentSection3'

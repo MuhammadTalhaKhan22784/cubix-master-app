@@ -11,8 +11,8 @@ const ServiceModel = ({ openn }) => {
                     <div className='para_div'>
                         <p>
                             Leveraging cutting-edge technologies to build industry-leading digital products
-                                
-                        </p>
+                                  
+                        </p> 
 
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const ServiceModel = ({ openn }) => {
                         <ul className='service_ul2'>
 
                             <li>
-                                <Link className='link' to="/artificial-intelligence">Artificial Intelligence</Link>
+                            <Link className='link' to="/artificial-intelligence">Artificial Intelligence</Link>
                                 <p>AI and Machine Learning</p>
                             </li>
                             <li>
@@ -73,11 +73,11 @@ const ServiceModel = ({ openn }) => {
                                 <p>Apps Integrated with Big Data</p>
                             </li>
                             <li>
-                                <Link className='link' to="/web-development">Web Development</Link>
+                            <Link className='link' to="/web-development">Web Development</Link>
                                 <p>Robust Web Development</p>
                             </li>
                             <li>
-                                <Link className='link' to="/mvp-development">MVP Development</Link>
+                            <Link className='link' to="/mvp-development">MVP Development</Link>
                                 <p>MVP for startups</p>
                             </li>
                             <li>

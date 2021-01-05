@@ -11,6 +11,7 @@ import Services from '../Pages/Services';
 import MVPDevelopment from '../Pages/MVPDevelopment';
 import WebDevelopment from '../Pages/WebDevelopment';
 import ArtificialIntelligence from '../Pages/ArtificialIntelligence';
+import MobileApplication from '../Pages/MobileApplication';
 
 
 const Routes = () => {
@@ -36,6 +37,9 @@ const Routes = () => {
                     <Route exact path="/artificial-intelligence">
                         <ArtificialIntelligence />
                     </Route>
+                    <Route exact path="/mobile-application">
+                        <MobileApplication/>
+                                            </Route>
                 </Switch>
             </Router>
         </>

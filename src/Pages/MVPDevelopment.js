@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from '../Layout/Navbar'
+// import Navbar from '../Layout/Navbar'
+import Navbar from '../Layout/navbar/navbar'
 import '../Pages/Styles/MVPDevelopment.css'
 import MVPDevelopmentCards from '../ServicesSubComponents/MVPDevelopmentCards'
 import MVPDevelopmentSection1 from '../ServicesSubComponents/MVPDevelopmentSection1'

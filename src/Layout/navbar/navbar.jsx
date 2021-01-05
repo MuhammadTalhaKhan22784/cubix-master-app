@@ -28,6 +28,11 @@ const Navbar = () => {
     if(width>990){
         open=false
     }
+    if(width<990){
+        // open=false
+        hide=true
+        // document.body.classList.add('scroll');
+    }
 
 
     const handleShow = (e) => {
@@ -48,7 +53,11 @@ const Navbar = () => {
 
     const handleOpen = () => {
         setOpen(!false)
+        document.body.classList.add('scroll');
+        
+        
     }
+
     const handleHideAbout =(e)=>{
         setModel(!model)
     }
@@ -76,7 +85,7 @@ const Navbar = () => {
                         </div>
                         :
                         <div className='close_div'>
-                            <CloseIcon className='close' onClick={()=>setOpen(false)} />
+                            <CloseIcon className='close' onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }} />
                         </div>
                 }
                 </div>

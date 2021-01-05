@@ -5,18 +5,23 @@ import ServiceModel from '../navbar/models/sevicemodel'
 import SolutionModel from '../navbar/models/solution'
 import AboutModel from '../navbar/models/about'
 import ResourcesModel from '../navbar/models/resources'
+import { Link } from 'react-router-dom';
+import MyVerticallyCenteredModal from '../../Components/Modals/Modal';
 
 
 // import HoverModel from './service/aboutModel'
 const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAbout}) => {
     // console.log(vertical)
-    
+    const [modalShow, setModalShow] = React.useState(false);
+
     const [open, setOpen] = useState(false)
     const [open2, setOpen2] = useState(false)
     let [value, setValue] = useState('')
+    
     const handleShoww = (e) => {
         setValue(e)
         setOpen(!open)
+        // document.body.style.overflowY='scroll'
         // console.log(e)
     }
     const handleAbout = (e) => {
@@ -43,9 +48,9 @@ const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAb
                         onMouseOver={showFunc}
                         onMouseLeave={hideFunc}
                           value='1' 
+                        //   className='servicesss'
                           className={!vertical?'servicesss':'servicesss2'}
-                          to="/services"
-                           >Services
+                           ><Link className={!vertical?'servicesss':'servicesss2'} to="/services">Services</Link>
                            
                            <div className='model_div'>
                            <ServiceModel value={value}   />
@@ -56,7 +61,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAb
                         <li  value='2'   className={!vertical?'solutions':'solutions2'} 
                              onMouseOver={showFunc}
                              onMouseLeave={hideFunc}
-                        >Solutions
+                        >Solutins
                         <div className='model_div2'>
                            <SolutionModel  />
 
@@ -86,11 +91,17 @@ const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAb
                         <li className={!vertical?'contacts':'contacts2'}>Contact</li>
                         <li className={!vertical?'cl_li':'cl_li2'}>
                             <PhoneIcon className='callIcon' />
-                            <p > 866-978-2220</p>
+                            <p className="mt-3 ms-3"> 866-978-2220</p>
                         </li>
                         <li>
-                            <button className='estimate_btn'>ESTIMATE PROJECT</button>
+                            <button onClick={() => setModalShow(true)} className='estimate_btn'>ESTIMATE PROJECT</button>
                         </li>
+                    
+                        <MyVerticallyCenteredModal
+
+                                show={modalShow}
+                                onHide={() => setModalShow(false)}
+                            />
                     </ul>
                 </div>
                 :
