@@ -24,7 +24,7 @@ const ServiceModel = ({ openn }) => {
                     <div className={!openn ? 'service_link_div' : '.service_link_div2'}>
                         <ul className='service_ul'>
                             <li>
-                                <Link className='link'>
+                                <Link className='link' to="/mobile-application">
                                     Mobile Application 
                                     
                                     

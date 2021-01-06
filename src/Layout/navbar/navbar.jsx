@@ -7,6 +7,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 // import HoverModel from '../unusedModels/onHoverModel'
 // import AboutModel from '../unusedModels/aboutModel'
 import './navbar.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -70,7 +71,7 @@ const Navbar = () => {
             <div className='sub_navbar_div'>
 
                 <div className='logo_div'>
-                    <img className='logo' src="https://www.cubix.co/themes/responsiv-clean/assets/img/cubix-logo.svg" alt="" />
+                   <Link to="/"> <img className='logo' src="https://www.cubix.co/themes/responsiv-clean/assets/img/cubix-logo.svg" alt="" /></Link>
                 </div>
                 <div>
                     <NavList openList={open} vertical={hide} aboutFunc={handleAbout} hideAbout={handleHideAbout} showFunc={handleShow} hideFunc={handleHide} />

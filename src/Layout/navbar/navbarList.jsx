@@ -61,7 +61,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAb
                         <li  value='2'   className={!vertical?'solutions':'solutions2'} 
                              onMouseOver={showFunc}
                              onMouseLeave={hideFunc}
-                        >Solutins
+                        >Solutions
                         <div className='model_div2'>
                            <SolutionModel  />
 
@@ -88,7 +88,10 @@ const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAb
 
                            </div>
                         </li>
-                        <li className={!vertical?'contacts':'contacts2'}>Contact</li>
+                        
+                        <li className={!vertical?'contacts':'contacts2'}>
+                        <Link className={!vertical?'contacts':'contacts2'} to="/contact">Contact</Link>
+                        </li>
                         <li className={!vertical?'cl_li':'cl_li2'}>
                             <PhoneIcon className='callIcon' />
                             <p className="mt-3 ms-3"> 866-978-2220</p>

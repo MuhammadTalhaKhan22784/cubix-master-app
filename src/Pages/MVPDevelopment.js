@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from '../Layout/Navbar'
+// import Navbar from '../Layout/Navbar'
+import Navbar from '../Layout/navbar/navbar'
 import '../Pages/Styles/MVPDevelopment.css'
-import MVPDevelopmentCards from '../ServicesSubComponents/MVPDevelopmentCards'
-import MVPDevelopmentSection1 from '../ServicesSubComponents/MVPDevelopmentSection1'
-import MVPDevelopmentSection2 from '../ServicesSubComponents/MVPDevelopmentSection2'
-import MVPDevelopmentSection3 from '../ServicesSubComponents/MVPDevelopmentSection3'
-import MVPDevelopmentSection4 from '../ServicesSubComponents/MVPDevelopmentSection4'
-import MVPDevelopmentSection5 from '../ServicesSubComponents/MVPDevelopmentSection5'
+import MVPDevelopmentCards from '../PagesSubComponents/MVPDevelopmentCards'
+import MVPDevelopmentSection1 from '../PagesSubComponents/MVPDevelopmentSection1'
+import MVPDevelopmentSection2 from '../PagesSubComponents/MVPDevelopmentSection2'
+import MVPDevelopmentSection3 from '../PagesSubComponents/MVPDevelopmentSection3'
+import MVPDevelopmentSection4 from '../PagesSubComponents/MVPDevelopmentSection4'
+import MVPDevelopmentSection5 from '../PagesSubComponents/MVPDevelopmentSection5'
 import ProductExperienceSection from '../Components/ProductExperienceSection'
 import Footer from '../Layout/Footer';
 const MVPDevelopment = () => {
@@ -14,7 +15,7 @@ const MVPDevelopment = () => {
         <>
             <Navbar />
             <div class="hero">
-                <div class="container aligning">
+                <div class="container">
                     <img className="sd-icon" src="https://www.cubix.co/themes/responsiv-clean/assets/images/mvp-startup-development/MVP-startup-development-icon.svg" alt="" />
                     <h1 class="sd-heading">Mvp product <br /> development</h1>
                     <p class="sd-para">
