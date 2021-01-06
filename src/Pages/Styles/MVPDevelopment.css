@@ -1,5 +1,3 @@
-
-
 .hero {
   padding: 2rem 0rem;
   background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/mvp-startup-development/MVP-Product-Development.jpg);
@@ -41,6 +39,55 @@
   border-radius: 5px;
 }
 
+@media (max-width: 850px) {
+  .sd-heading {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .aligning {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .sd-para {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 100%;
+    margin: 1rem 0rem 2rem 0;
+  }
+}
+@media (max-width: 540px) {
+  .sd-heading {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .aligning {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .sd-para {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.3em;
+    width: 100%;
+    margin: 1rem 0rem 2rem 0;
+  }
+}
+
 /* SECTION-1 START */
 
 .section-1 {
@@ -80,21 +127,166 @@
 /* SECTION 2 START */
 
 .section-2 {
+  width: 100%;
+  min-height: 110vh;
   background-color: #f0f2f7;
-  padding: 6rem 0rem;
+  padding: 100px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec2Content {
+  width: 500px;
+}
+.sec2ImageBox {
+  width: 500px;
+  height: 500px;
+  margin-top: 200px;
+}
+.sec2ImageBox img {
+  width: 100%;
 }
 .s2-para {
   font-size: 1.3rem;
   font-weight: 400rem;
   margin: 2rem 0rem;
 }
+
+@media (max-width: 930px) {
+  .section-2 {
+    width: 100%;
+    min-height: 110vh;
+    background-color: #f0f2f7;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sec2Content {
+    width: 100%;
+  }
+  .sec2ImageBox {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+  }
+  .sec2ImageBox img {
+    width: 100%;
+  }
+  .s2-para {
+    font-size: 1.3rem;
+    font-weight: 400rem;
+    margin: 2rem 0rem;
+  }
+}
+@media (max-width: 550px) {
+  .section-2 {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #f0f2f7;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sec2Content {
+    width: 100%;
+  }
+  .sec2ImageBox {
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 20px;
+  }
+  .sec2ImageBox img {
+    width: 100%;
+  }
+  .s2-para {
+    font-size: 1rem;
+    font-weight: 400rem;
+    margin: 2rem 0rem;
+  }
+}
 /* SECTION 2 END */
 
 /* SECTION 3 START */
 
 .section-3 {
-  padding: 6rem 0rem;
-  background-color: #f5f7fb;
+  margin-top: 90px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.sec3Content {
+  width: 500px;
+}
+
+.sec3ImageBox {
+  /* border: 2px solid grey; */
+  width: 500px;
+  height: 400px;
+}
+.sec3ImageBox img {
+  width: 100%;
+}
+
+@media (max-width: 876px) {
+  .section-3 {
+    margin-top: 90px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sec3Content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .sec3ImageBox {
+    /* border: 2px solid grey; */
+    width: 500px;
+    height: 400px;
+  }
+  .sec3ImageBox img {
+    width: 100%;
+  }
+}
+@media (max-width: 530px) {
+  .section-3 {
+    margin-top: 90px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sec3Content {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .sec3ImageBox {
+    /* border: 2px solid grey; */
+    width: 300px;
+    height: 300px;
+  }
+  .sec3ImageBox img {
+    width: 100%;
+  }
 }
 
 /* SECTION 3 END */

@@ -1,6 +1,5 @@
 import React from 'react'
-// import Navbar from '../Layout/Navbar'
-import Navbar from '../Layout/navbar/navbar'
+import Navbar from '../Layout/Navbar'
 import '../Pages/Styles/MVPDevelopment.css'
 import MVPDevelopmentCards from '../ServicesSubComponents/MVPDevelopmentCards'
 import MVPDevelopmentSection1 from '../ServicesSubComponents/MVPDevelopmentSection1'
@@ -15,7 +14,7 @@ const MVPDevelopment = () => {
         <>
             <Navbar />
             <div class="hero">
-                <div class="container">
+                <div class="container aligning">
                     <img className="sd-icon" src="https://www.cubix.co/themes/responsiv-clean/assets/images/mvp-startup-development/MVP-startup-development-icon.svg" alt="" />
                     <h1 class="sd-heading">Mvp product <br /> development</h1>
                     <p class="sd-para">

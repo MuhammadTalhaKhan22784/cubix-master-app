@@ -38,8 +38,8 @@ const Routes = () => {
                         <ArtificialIntelligence />
                     </Route>
                     <Route exact path="/mobile-application">
-                        <MobileApplication/>
-                                            </Route>
+                        <MobileApplication />
+                    </Route>
                 </Switch>
             </Router>
         </>
