@@ -16,11 +16,11 @@ const Home = () => {
         <>
             <Header />
             <DrivenProducts />
+            <TechnologyUse />
             <PreviousWorkSection />
             <PreviousWorkSectionSecond />
             <PreviousWorkSectionThird/>
              <DevEnterprise />
-            <TechnologyUse />
             <TechnoPartners />
             <ProductExperienceSection />
             <Footer />

@@ -11,11 +11,12 @@ function MyVerticallyCenteredModal(props) {
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
-           
+            <Modal.Header closeButton size="lg">
+            </Modal.Header>
             <Modal.Body>
-       <ContactForm isSmallHeading ="false"  />
+                <ContactForm isSmallHeading="false" />
             </Modal.Body>
-            
+
         </Modal>
     );
 }

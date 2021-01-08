@@ -94,7 +94,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide,vertical ,aboutFunc,hideAb
                         </li>
                         <li className={!vertical?'cl_li':'cl_li2'}>
                             <PhoneIcon className='callIcon' />
-                            <p className="mt-3 ms-3"> 866-978-2220</p>
+                            <p className="mt-3 ms-3"> +923104267558</p>
                         </li>
                         <li>
                             <button onClick={() => setModalShow(true)} className='estimate_btn'>ESTIMATE PROJECT</button>

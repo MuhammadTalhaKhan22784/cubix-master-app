@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+/* Modal */
+
+.modal-header {
+  justify-content: flex-end;
+}
+
+.modal-header button {
+  width: 50px;
+  border: none;
+}
+
 /* Header */
 
 .nav-link-text {
@@ -41,19 +52,36 @@
 .bg_1 {
   width: 100% !important;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://www.cubix.co/storage/app/media/home/revolutionizing-enterprises-digitally1.jpg);
+    url(./Images/bgslider-1.jpg);
   background-position: cover;
   background-size: 100% 100%;
   object-fit: cover;
   background-repeat: no-repeat;
 }
 .bg_2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-image: url("https://www.cubix.co/storage/app/media/home/blockchain-development2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Images/bgslider-2.jpg);
+  background-position: cover;
+  background-size: 100% 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 .bg_3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-image: url("https://www.cubix.co/storage/app/media/home/aI-and-machine-learning.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Images/bgslider-3.jpg);
+  background-position: cover;
+  background-size: 100% 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.bg_4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Images/bgslider-4.jpg);
+  background-position: cover;
+  background-size: 100% 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-slider {
@@ -414,6 +442,15 @@
   width: 520px;
   margin: 0 auto;
 }
+
+.swiper-button-prev{
+  display: block !important;
+}
+/* 
+.swiper-button-next,
+  .swiper-button-prev {
+    display:  !important;
+  } */
 
 .techno-nav-link {
   font-size: 16px !important;

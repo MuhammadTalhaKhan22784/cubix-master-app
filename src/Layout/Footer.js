@@ -8,20 +8,16 @@ const Footer = () => {
             <div className="footer container">
                 <FooterData
                     countryImage="https://www.cubix.co/storage/app/media/home/usa-flag-icon.svg"
-                    countryName="Florida"
-                    countryText="700 S. Rosemary Ave, Suite 204-118 West Palm Beach, FL 33401"
+                    countryName="United states"
+                    countryText="Son Jose , California"
                 />
 
                 <FooterData
                     countryImage="https://www.cubix.co/storage/app/media/home/pakistan-flag-icon.svg"
-                    countryName="Karachi"
-                    countryText="D23, Block 9 Clifton, Karachi, Sindh 75600, Pakistan"
+                    countryName="Pakistan"
+                    countryText=" johar town J3 block, building number 149, Lahore"
                 />
-                <FooterData
-                    countryImage="https://www.cubix.co/storage/app/media/home/uae-flag-icon.svg"
-                    countryName="Dubai"
-                    countryText="Building 11, Level 7, Bay Square, Business Bay, UAE"
-                />
+
                 <FooterData2 ftName="Services" />
                 <FooterData2 ftName="&nbsp;" />
             </div>
@@ -33,10 +29,10 @@ const Footer = () => {
                     <span>© 2020 Cubix. All Rights Reserved. <strong>Terms of Use. Privacy Policy.</strong></span>
                 </div>
                 <div className="ft-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin-in"></i>
-                <i class="fab fa-dribbble"></i>
+                    <a href="https://web.facebook.com/LozpDataSolutions"><i class="fab fa-facebook-f" ></i></a>
+                    <a href="https://www.linkedin.com/company/lozpdatasolutions"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/lozpdata"><i class="fab fa-twitter"></i></a>
+                    <i class="fab fa-dribbble"></i>
                 </div>
 
             </div>

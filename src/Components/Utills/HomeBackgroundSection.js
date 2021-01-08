@@ -5,10 +5,11 @@ import BackgroundSectionData from './BackgroundSectionData';
 
 SwiperCore.use([Navigation,Pagination]);
 
-const HomeBackgroundSection = () => {
+const HomeBackgroundSection = () => { 
     return (
         <>
-            <Swiper loop={true} navigation={true} grabCursor={true}>
+            <Swiper loop={true} navigation={true} grabCursor={true} Autoplay={true}
+>
                 <SwiperSlide style={{ height: `100vh` }} className="bg-image bg_1">
                     <BackgroundSectionData
                         bgTest1="Revolutionizing"
@@ -24,6 +25,14 @@ const HomeBackgroundSection = () => {
                     />
                 </SwiperSlide>
                 <SwiperSlide style={{ height: `100vh` }} className="bg-image bg_3">
+                    <BackgroundSectionData
+                        bgTest1="Ai and machine"
+                        bgTest2="Learning"
+                        bgPara="Our in-house, doctorate-level research and design team brings machine learning and artificial intelligence to life."
+                    />
+                </SwiperSlide>
+
+                <SwiperSlide style={{ height: `100vh` }} className="bg-image bg_4">
                     <BackgroundSectionData
                         bgTest1="Ai and machine"
                         bgTest2="Learning"
