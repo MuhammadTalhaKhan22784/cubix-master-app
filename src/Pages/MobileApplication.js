@@ -98,7 +98,7 @@ const MobileApplication = () => {
 
 
                 <div className="section3">
-                    <h1>Mobile app services the Cubix way</h1>
+                    <h1>Mobile app services the Lozpdata way</h1>
                     <p>Whether you are a small-scale business, a startup, or an enterprise looking to build a mobile app, our development process remains the same. We transform your ideas into successful mobile apps that become an integral part of everyone’s lives. With our smooth app development process, the apps we build are engaging, robust, user-friendly, and well-crafted.</p>
                 </div>
 
@@ -152,10 +152,10 @@ const MobileApplication = () => {
 
                 <div className="section5">
                     <div>
-                        <h1>Apps developed by Cubix rake in success</h1>
+                        <h1>Apps developed by Lozpdata rake in success</h1>
                         <p>It doesn’t matter if you are a small-scale business, a unicorn startup or an enterprise, our development process stays the same, which has awesome written all over it. We begin by asking the number one question “How can I turn my idea into a successful app”. “An app that becomes an integral part of everyone’s life”. The answer: our app development process. We want our apps to be intuitive, appealing, robust and friendly.</p>
                         <p>We aren’t in a rush to escalate your project as we believe in detailed evaluation of a product, through various stages including Planning, sketching, wireframing, prototyping, developing, quality assurance, and launching an MVP. Our goal is to create mobile apps that are bound to rake in popularity, downloads and marvelous word of mouth.</p>
-                        <p>You can find Cubix’s leading mobile app development team in USA, Florida, Dubai, and Karachi.</p>
+                        <p>You can findLozpdata ’s leading mobile app development team in USA, Florida, Dubai, and Karachi.</p>
                     </div>
                 </div>
 
@@ -164,7 +164,7 @@ const MobileApplication = () => {
                 <div className="section6">
                     <div className="content1">
                         <h1>App development process</h1>
-                        <h3>Being among the top mobile app development companies, Cubix guarantees intuitive mobile apps that are performance-oriented and a lifestyle toolkit. We convert untapped ideas into mobile apps!</h3>
+                        <h3>Being among the top mobile app development companies, Lozpdata guarantees intuitive mobile apps that are performance-oriented and a lifestyle toolkit. We convert untapped ideas into mobile apps!</h3>
                     </div>
 
                     <div className="sec5CardsMain">
@@ -210,7 +210,7 @@ const MobileApplication = () => {
                     <div>
                         <h1>World-famous mobile application development company</h1>
                         <p>Mobile apps indeed hold a significant chunk of the market, currently (about 58%), making it important for your business to invest in one. If you have a wide customer base from your e-commerce website, imagine the power of pairing that with a mobile app!</p>
-                        <p>Cubix is a popular mobile app development company that helps you achieve your goals. We examine your particular need and work to develop your app solution to perfection! And it all starts with a rock-solid plan that not only sets the parameters of your project features, but also minutely defines and strategizes the length and breadth of programming required. This concrete plan is matched against a strict timeline to ensure delivery on time.</p>
+                        <p>Lozpdata is a popular mobile app development company that helps you achieve your goals. We examine your particular need and work to develop your app solution to perfection! And it all starts with a rock-solid plan that not only sets the parameters of your project features, but also minutely defines and strategizes the length and breadth of programming required. This concrete plan is matched against a strict timeline to ensure delivery on time.</p>
                         <p>Every customer is important to us, as we believe in taking everyone who approaches us to the next level. So, no matter what kind of app you are desirous of building; we can build anything for you from scratch.</p>
                     </div>
                 </div>
@@ -296,7 +296,7 @@ const MobileApplication = () => {
                         </div>
 
                         <div className="cont2">
-                            <p>Cubix is a leading mobile app development company with a data-driven app development process that enables startups and entrepreneurs to leverage modern technologies.</p>
+                            <p>Lozpdata is a leading mobile app development company with a data-driven app development process that enables startups and entrepreneurs to leverage modern technologies.</p>
                             <button>contact us</button>
                         </div>
                     </div>

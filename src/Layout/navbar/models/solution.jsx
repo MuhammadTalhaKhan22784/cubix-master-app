@@ -25,7 +25,7 @@ const SolutionModel = ({ openn, value }) => {
                         <ul className='service_ul'>
                             <li>
                                 <Link className='link'>
-                                        Cubix Happyforce
+                                        Lozpdata Happyforce
                                 </Link>
                                 <p>
                                       HR Solution
@@ -33,7 +33,7 @@ const SolutionModel = ({ openn, value }) => {
                             </li>
                             <li>
                                 <Link className='link'>
-                                    Cubix Shop
+                                    Lozpdata Shop
                                 </Link>
                                 <p>
                                         Marketplace Solution
@@ -50,18 +50,18 @@ const SolutionModel = ({ openn, value }) => {
 
 
                                         <li>
-                                            <Link className='link'>Cubix Chain</Link>
+                                            <Link className='link'>Lozpdata Chain</Link>
                                             <p>Blockchain Solution</p>
                                         </li>
                                         <li>
-                                            <Link className='link'>Cubix Insight Machine'</Link>
+                                            <Link className='link'>Lozpdata Insight Machine'</Link>
                                             <p>Machine Solution</p>
                                         </li>
                         </ul>
                         <ul className='service_ul2'>
 
                             <li>
-                                <Link className='link'>Cubix Hero</Link>
+                                <Link className='link'>Lozpdata Hero</Link>
                                 <p>Powerfull RPG Solution</p>
                             </li>
                             <li>

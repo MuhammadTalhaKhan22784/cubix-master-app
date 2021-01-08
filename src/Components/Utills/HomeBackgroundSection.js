@@ -1,15 +1,40 @@
 import React, { Fragment } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation,Pagination } from 'swiper';
+import SwiperCore, { Navigation,Pagination,Autoplay } from 'swiper';
 import BackgroundSectionData from './BackgroundSectionData';
 
-SwiperCore.use([Navigation,Pagination]);
+SwiperCore.use([Navigation,Pagination,Autoplay]);
 
 const HomeBackgroundSection = () => { 
+    // const navigationPrevRef = React.useRef(null)
+    // const navigationNextRef = React.useRef(null)
+    
     return (
-        <>
-            <Swiper loop={true} navigation={true} grabCursor={true} Autoplay={true}
+        <div className="position-relative main" >
+            
+            <Swiper loop={true} navigation={true} grabCursor={true} autoplay={
+                {delay: 2500,
+                disableOnInteraction: false,}
+            }
+            // onSwiper={(swiper) => {
+            //     // Delay execution for the refs to be defined
+            //     setTimeout(() => {
+            //       // Override prevEl & nextEl now that refs are defined
+            //       swiper.params.navigation.prevEl = navigationPrevRef.current
+            //       swiper.params.navigation.nextEl = navigationNextRef.current
+        
+            //       // Re-init navigation
+            //       swiper.navigation.destroy()
+            //       swiper.navigation.init()
+            //       swiper.navigation.update()
+            //     })
+            //   }}
+            // navigation={{
+            //     prevEl: navigationPrevRef.current,
+            //     nextEl: navigationNextRef.current,
+            //   }}
 >
+    
                 <SwiperSlide style={{ height: `100vh` }} className="bg-image bg_1">
                     <BackgroundSectionData
                         bgTest1="Revolutionizing"
@@ -41,8 +66,11 @@ const HomeBackgroundSection = () => {
                 </SwiperSlide>
 
             </Swiper>
-
-        </>
+            {/* <div ref={navigationPrevRef} >
+                PREVIOUS
+            </div>  
+      <div ref={navigationNextRef} >NEXT</div> */}
+        </div>
     )
 }
 

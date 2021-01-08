@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom container">
                 <div>
-                    <span>© 2020 Cubix. All Rights Reserved. <strong>Terms of Use. Privacy Policy.</strong></span>
+                    <span>© 2020Lozpdata . All Rights Reserved. <strong>Terms of Use. Privacy Policy.</strong></span>
                 </div>
                 <div className="ft-icons">
                     <a href="https://web.facebook.com/LozpDataSolutions"><i class="fab fa-facebook-f" ></i></a>

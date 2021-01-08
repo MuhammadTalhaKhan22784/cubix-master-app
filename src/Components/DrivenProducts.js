@@ -14,8 +14,8 @@ const DrivenProducts = () => {
         <>
             <div className="products-content">
                 <div className="prd-con-items">
-                    <span>DESIGN. DEVELOPMENT. CONSULTANCY.</span>
-                    <h2>Cubix develops result-driven products for entrepreneurs, startups and enterprises.</h2>
+                    <span>Imagine, Design, Development, Test</span>
+                    <h2>LozpData is a software development company that provides cutting edge engineering solutions, helping Fortune 300 companies, Startups And Enterprises to develop premium product during their digital evolution journey.</h2>
                 </div>
                 <div className="prd-con-cards container">
                     <PrdCards AppiconName={AppiconName} AppiconTextOne={AppiconTextOne} AppiconTextTwo={AppiconTextTwo}/>

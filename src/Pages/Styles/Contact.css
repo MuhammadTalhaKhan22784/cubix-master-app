@@ -29,10 +29,10 @@
   object-fit: contain;
 }
 
-.swiper-button-next,
+/* .swiper-button-next,
 .swiper-button-prev {
   display: none !important;
-}
+} */
 
 .sub-contact-2-item-1 {
   margin-top: 1rem;

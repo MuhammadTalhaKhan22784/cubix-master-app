@@ -41,7 +41,7 @@ const Services = () => {
                     </div>
                     <div className="service-main-text-2">
                         <h2>Digital demand thrives in our hands</h2>
-                        <p>We bring to you award-winning products, excellent UI/UX, and a world-class tech talent of web and mobile arena that bridges the gap between the creative and technology world. At Cubix, our solutions become a technology brand that others take inspiration from.</p>
+                        <p>We bring to you award-winning products, excellent UI/UX, and a world-class tech talent of web and mobile arena that bridges the gap between the creative and technology world. AtLozpdata , our solutions become a technology brand that others take inspiration from.</p>
                     </div>
                     <div className="container">
                         <div className="row">

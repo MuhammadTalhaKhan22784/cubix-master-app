@@ -8,7 +8,8 @@ import PhoneIcon from '@material-ui/icons/Phone';
 // import AboutModel from '../unusedModels/aboutModel'
 import './navbar.css'
 import { Link } from 'react-router-dom';
-
+// images
+import logoImg1 from '../../Images/logo-img-1.svg'
 
 
 const Navbar = () => {
@@ -71,7 +72,7 @@ const Navbar = () => {
             <div className='sub_navbar_div'>
 
                 <div className='logo_div'>
-                   <Link to="/"> <img className='logo' src="https://www.cubix.co/themes/responsiv-clean/assets/img/cubix-logo.svg" alt="" /></Link>
+                   <Link to="/"> <img className='logo' src={logoImg1} alt="" /></Link>
                 </div>
                 <div>
                     <NavList openList={open} vertical={hide} aboutFunc={handleAbout} hideAbout={handleHideAbout} showFunc={handleShow} hideFunc={handleHide} />
